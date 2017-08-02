@@ -1,0 +1,90 @@
+body {
+  background: #fff;
+}
+
+button,input{
+  font-size: 14px;
+  height: 34px;
+  width: 80px;
+}
+.Success{
+ background-color: #4CAF50;
+ border: none;
+}
+
+.primary{
+ background-color: #008CBA;
+ border: none;
+}
+
+.link{
+  border: none;
+}
+
+.dropdown:hover{
+  background-color: grey;
+}
+.dropdownDiv:hover .dropdown-content{
+  display: block;
+}
+.dropdown-content{
+  display: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.addBtn{
+  width: 40px;
+  background-color: #008CBA;
+  border: none;
+  margin-left: 20px;
+  margin-top:15px;
+}
+
+.div_bottom{
+  height:60px;
+  width: auto;
+  border: 1px solid gainsboro;
+  //display:inline-block;
+  //*display:inline;
+  //*zoom:1;
+}
+
+.textButton{
+  margin-left:10px;
+  background-color: #4CAF50;
+  border:none;
+  width:80px;
+}
+
+.deleted{
+  color: red;
+  cursor: pointer;
+}
+
+.div_dialog{
+  width: 400px;
+  height: 150px;
+  border: 1px solid gainsboro;
+  display: none;
+}
+.input{
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.prompt{
+  margin-left: 30px;
+}
+
+.button_confirm{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.confirm_button{
+  background-color: cornflowerblue;
+}
