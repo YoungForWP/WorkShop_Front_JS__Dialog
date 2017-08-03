@@ -12,17 +12,22 @@
   <br>
   <br>
   <br>
-  <div class="div_bottom" id="div_text">
+  <div class="content" onclick="addResourceClick(event)">
+
+  <div class="div_bottom">
     <button class="addBtn" onclick="showDialog()">+</button>
   </div>
   <div class="div_dialog">
   <span class="prompt">请输入：</span>
     <br>
-    <input class="input" type="text" id="input_text"> </input>
+    <input class="input" type="text"> </input>
     <div class="button_confirm">
       <button class="confirm_button" onclick="addText()"> Add</button>
       <button class="confirm_button" onclick="cancel()"> Cancel</button>
     </div>
+  </div>
+    <br>
+
   </div>
   <script src="script/main.js"></script>
 

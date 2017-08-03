@@ -1,2 +1,5 @@
 .DS_Store
 .editorconfig
+.idea/workspace.xml
+.idea/vcs.xml
+.idea
